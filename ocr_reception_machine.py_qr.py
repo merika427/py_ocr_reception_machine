@@ -96,7 +96,6 @@ def OcrReception():
                     # スプレッドシートと照合
                     googleSheet([result])
 
-
                     # スプレッドシートと照合後、そのまま読み取ったURLでブラウザを開く場合
                     # if(googleSheet([result])):
                     #     webbrowser.open(data)  
